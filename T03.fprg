@@ -4,11 +4,11 @@
         <attribute name="name" value="T02"/>
         <attribute name="authors" value="ASUS"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-02 04:32:44 PM"/>
+        <attribute name="saved" value="2024-10-02 04:42:02 PM"/>
         <attribute name="created" value="QVNVUztLQUxFSDsyMDI0LTA5LTI3OzEwOjEwOjI1IEFNOzE5Mzc="/>
         <attribute name="edited" value="QVNVUztLQUxFSDsyMDI0LTA5LTI3OzEwOjEwOjI4IEFNOzE7QVNVUztLQUxFSDsyMDI0LTA5LTA2OzEwOjA4OjUwIEFNO1QwMS5mcHJnOzQ3NjM="/>
         <attribute name="edited" value="QVNVUztLQUxFSDsyMDI0LTEwLTAyOzA0OjI0OjIzIFBNOzQ7MjA1NA=="/>
-        <attribute name="edited" value="QUNFUjtNWUhTWkU7MjAyNC0xMC0wMjswNDozMjo0NCBQTTsxOzIxNDM="/>
+        <attribute name="edited" value="QUNFUjtNWUhTWkU7MjAyNC0xMC0wMjswNDo0MjowMiBQTTsyOzIxMzk="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -25,6 +25,7 @@
                 <input variable="FormatBuku"/>
                 <input variable="HargaPembelian"/>
                 <input variable="Margin"/>
+                <assign variable="Result" expression="&quot;&quot;"/>
                 <if expression="Margin/HargaPembelian &lt; -0.4">
                     <then>
                         <assign variable="Result" expression="&quot;Once in a lifetime&quot;"/>

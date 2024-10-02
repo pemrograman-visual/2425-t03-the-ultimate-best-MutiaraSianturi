@@ -1,7 +1,7 @@
 // 12S24003 - Michael Nasution
 // 12S24045 - Mutiara Sianturi
 
- import java.util.*;
+  import java.util.*;
 import java.lang.Math;
 
 public class T03 {
@@ -21,6 +21,7 @@ public class T03 {
             formatBuku = input.nextLine();
             hargaPembelian = Double.parseDouble(input.nextLine());
             margin = Double.parseDouble(input.nextLine());
+            result = "";
             if (margin / hargaPembelian < -0.4) {
                 result = "Once in a lifetime";
             } else {
