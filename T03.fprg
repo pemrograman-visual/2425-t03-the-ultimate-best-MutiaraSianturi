@@ -4,10 +4,11 @@
         <attribute name="name" value="T02"/>
         <attribute name="authors" value="ASUS"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-02 04:24:23 PM"/>
+        <attribute name="saved" value="2024-10-02 04:32:44 PM"/>
         <attribute name="created" value="QVNVUztLQUxFSDsyMDI0LTA5LTI3OzEwOjEwOjI1IEFNOzE5Mzc="/>
         <attribute name="edited" value="QVNVUztLQUxFSDsyMDI0LTA5LTI3OzEwOjEwOjI4IEFNOzE7QVNVUztLQUxFSDsyMDI0LTA5LTA2OzEwOjA4OjUwIEFNO1QwMS5mcHJnOzQ3NjM="/>
         <attribute name="edited" value="QVNVUztLQUxFSDsyMDI0LTEwLTAyOzA0OjI0OjIzIFBNOzQ7MjA1NA=="/>
+        <attribute name="edited" value="QUNFUjtNWUhTWkU7MjAyNC0xMC0wMjswNDozMjo0NCBQTTsxOzIxNDM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -87,7 +88,7 @@
                         <assign variable="FinalResult" expression="&quot;The ultimate best&quot;"/>
                     </then>
                     <else>
-                        <assign variable="FinalResult" expression="&quot;&quot;"/>
+                        <assign variable="FinalResult" expression="&quot;---&quot;"/>
                     </else>
                 </if>
                 <output expression="ISBN&amp;&quot;|&quot;&amp;JUDUL&amp;&quot;|&quot;&amp;PENULIS&amp;&quot;|&quot;&amp;TahunTerbit&amp;&quot;|&quot;&amp;PENERBIT&amp;&quot;|&quot;&amp;FormatBuku&amp;&quot;|&quot;&amp;tofixed(HargaPembelian,2)&amp;&quot;|&quot;&amp;tofixed(Margin,2)&amp;&quot;|&quot;&amp;StokBuku&amp;&quot;|&quot;&amp;tofixed(Rating,1)&amp;&quot;|&quot;&amp;rate&amp;&quot;|&quot;&amp;Result&amp;&quot;|&quot;&amp;FinalResult" newline="True"/>

@@ -1,10 +1,10 @@
 // 12S24003 - Michael Nasution
 // 12S24045 - Mutiara Sianturi
 
-import java.util.*;
+ import java.util.*;
 import java.lang.Math;
 
-public class T03 {
+public class T02 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -58,7 +58,7 @@ public class T03 {
             if (result.equals("Once in a lifetime") && rate.equals("Best Pick")) {
                 finalResult = "The ultimate best";
             } else {
-                finalResult = "";
+                finalResult = "---";
             }
             System.out.println(iSBN + "|" + jUDUL + "|" + pENULIS + "|" + tahunTerbit + "|" + pENERBIT + "|" + formatBuku + "|" + toFixed(hargaPembelian,2) + "|" + toFixed(margin,2) + "|" + stokBuku + "|" + toFixed(rating,1) + "|" + rate + "|" + result + "|" + finalResult);
             iSBN = input.nextLine();
